@@ -1,0 +1,17 @@
+Arquivo persistence.xml
+
+- Caso utilize um banco de dados diferente do MySql, trocar o dialeto para o banco utilziado no projeto
+
+Arquivo applicationContext.xml
+
+- Trocar o package do "component-scan"
+- Trocar configurações do "DataSource" para as utilizadas no projeto
+- Trocar a package no "Spring data" campo "base-package" 
+
+Arquivo web.xml
+
+- Trocar o nome do projeto
+
+Classes Java
+
+- Utilizar as configurações de cada camada, de acordo com o exemplo disponibilziado.
